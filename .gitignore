@@ -1,0 +1,22 @@
+# Rust
+/backend/target/
+
+# JavaScript
+/frontend/node_modules/
+/frontend/dist/
+
+# Local configuration and data
+.env
+*.db
+*.db-shm
+*.db-wal
+/data/
+
+# Tooling
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+playwright-report/
+test-results/
+

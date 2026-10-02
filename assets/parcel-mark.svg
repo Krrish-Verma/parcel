@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">Parcel mark</title>
+  <desc id="desc">A folded parcel box forming the letter P</desc>
+  <rect width="96" height="96" rx="24" fill="#16392f"/>
+  <path d="M27 24h31c12.7 0 22 8.4 22 20.5S70.7 65 58 65H44v11H27V24Zm17 15v11h13.2c3.8 0 6.3-2.1 6.3-5.5S61 39 57.2 39H44Z" fill="#b9fbc0"/>
+  <path d="m48 24 9-9 9 9-9 9-9-9Z" fill="#f7f4ed"/>
+</svg>
+

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Parcel</title>
+  <desc id="desc">Parcel logo with a sequence of verified file chunks traveling across a dark green background</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071a17"/>
+      <stop offset="1" stop-color="#16392f"/>
+    </linearGradient>
+    <linearGradient id="trail" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#b9fbc0" stop-opacity="0"/>
+      <stop offset="1" stop-color="#b9fbc0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <circle cx="1090" cy="58" r="160" fill="#b9fbc0" opacity=".035"/>
+  <circle cx="1050" cy="365" r="220" fill="#5cc8ff" opacity=".025"/>
+  <g opacity=".11" stroke="#f7f4ed">
+    <path d="M0 84h1200M0 168h1200M0 252h1200M0 336h1200"/>
+    <path d="M120 0v420M240 0v420M360 0v420M480 0v420M600 0v420M720 0v420M840 0v420M960 0v420M1080 0v420"/>
+  </g>
+  <g transform="translate(74 76)">
+    <rect width="96" height="96" rx="24" fill="#b9fbc0"/>
+    <path d="M27 24h31c12.7 0 22 8.4 22 20.5S70.7 65 58 65H44v11H27V24Zm17 15v11h13.2c3.8 0 6.3-2.1 6.3-5.5S61 39 57.2 39H44Z" fill="#16392f"/>
+    <path d="m48 24 9-9 9 9-9 9-9-9Z" fill="#071a17"/>
+  </g>
+  <text x="194" y="148" fill="#f7f4ed" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="92" font-weight="750" letter-spacing="-4">Parcel</text>
+  <text x="79" y="226" fill="#b9fbc0" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="28" font-weight="550">resumable file sharing, without the drama</text>
+  <g transform="translate(80 285)">
+    <rect x="0" y="0" width="620" height="12" rx="6" fill="#f7f4ed" opacity=".14"/>
+    <rect x="0" y="0" width="456" height="12" rx="6" fill="url(#trail)"/>
+    <g fill="#b9fbc0">
+      <rect x="0" y="34" width="58" height="58" rx="12"/>
+      <rect x="72" y="34" width="58" height="58" rx="12"/>
+      <rect x="144" y="34" width="58" height="58" rx="12"/>
+      <rect x="216" y="34" width="58" height="58" rx="12"/>
+      <rect x="288" y="34" width="58" height="58" rx="12"/>
+      <rect x="360" y="34" width="58" height="58" rx="12"/>
+    </g>
+    <rect x="432" y="34" width="58" height="58" rx="12" fill="none" stroke="#b9fbc0" stroke-width="3" stroke-dasharray="8 7"/>
+    <rect x="504" y="34" width="58" height="58" rx="12" fill="#f7f4ed" opacity=".12"/>
+    <rect x="576" y="34" width="58" height="58" rx="12" fill="#f7f4ed" opacity=".12"/>
+    <g fill="none" stroke="#16392f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="m17 63 9 9 18-20M89 63l9 9 18-20M161 63l9 9 18-20M233 63l9 9 18-20M305 63l9 9 18-20M377 63l9 9 18-20"/>
+    </g>
+  </g>
+  <g transform="translate(885 112)" filter="url(#glow)">
+    <path d="M0 58 106 0l106 58-106 58L0 58Z" fill="#b9fbc0"/>
+    <path d="m0 58 106 58v118L0 176V58Z" fill="#79d98d"/>
+    <path d="m212 58-106 58v118l106-58V58Z" fill="#a1edaa"/>
+    <path d="m70 20 106 58v45l-25-7-19 30v-47L26 41l44-21Z" fill="#f7f4ed" opacity=".94"/>
+  </g>
+</svg>
+
