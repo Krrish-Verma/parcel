@@ -1,57 +1,67 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
-  <title id="title">Parcel</title>
-  <desc id="desc">Parcel logo with a sequence of verified file chunks traveling across a dark green background</desc>
+  <title id="title">Parcel — file sharing that picks up where it left off</title>
+  <desc id="desc">An editorial cream banner with a dark green announcement bar, large serif headline, a resumable upload trail, and a softly faded parcel illustration</desc>
+
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#071a17"/>
-      <stop offset="1" stop-color="#16392f"/>
+    <linearGradient id="boxFade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a8d6a1" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#214e43" stop-opacity=".05"/>
     </linearGradient>
-    <linearGradient id="trail" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#b9fbc0" stop-opacity="0"/>
-      <stop offset="1" stop-color="#b9fbc0"/>
+    <linearGradient id="trailFade" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#214e43" stop-opacity=".08"/>
+      <stop offset=".55" stop-color="#214e43" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#214e43" stop-opacity=".08"/>
     </linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="9" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="softBlur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.5"/>
     </filter>
   </defs>
-  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
-  <circle cx="1090" cy="58" r="160" fill="#b9fbc0" opacity=".035"/>
-  <circle cx="1050" cy="365" r="220" fill="#5cc8ff" opacity=".025"/>
-  <g opacity=".11" stroke="#f7f4ed">
-    <path d="M0 84h1200M0 168h1200M0 252h1200M0 336h1200"/>
-    <path d="M120 0v420M240 0v420M360 0v420M480 0v420M600 0v420M720 0v420M840 0v420M960 0v420M1080 0v420"/>
-  </g>
-  <g transform="translate(74 76)">
-    <rect width="96" height="96" rx="24" fill="#b9fbc0"/>
-    <path d="M27 24h31c12.7 0 22 8.4 22 20.5S70.7 65 58 65H44v11H27V24Zm17 15v11h13.2c3.8 0 6.3-2.1 6.3-5.5S61 39 57.2 39H44Z" fill="#16392f"/>
-    <path d="m48 24 9-9 9 9-9 9-9-9Z" fill="#071a17"/>
-  </g>
-  <text x="194" y="148" fill="#f7f4ed" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="92" font-weight="750" letter-spacing="-4">Parcel</text>
-  <text x="79" y="226" fill="#b9fbc0" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="28" font-weight="550">resumable file sharing, without the drama</text>
-  <g transform="translate(80 285)">
-    <rect x="0" y="0" width="620" height="12" rx="6" fill="#f7f4ed" opacity=".14"/>
-    <rect x="0" y="0" width="456" height="12" rx="6" fill="url(#trail)"/>
-    <g fill="#b9fbc0">
-      <rect x="0" y="34" width="58" height="58" rx="12"/>
-      <rect x="72" y="34" width="58" height="58" rx="12"/>
-      <rect x="144" y="34" width="58" height="58" rx="12"/>
-      <rect x="216" y="34" width="58" height="58" rx="12"/>
-      <rect x="288" y="34" width="58" height="58" rx="12"/>
-      <rect x="360" y="34" width="58" height="58" rx="12"/>
-    </g>
-    <rect x="432" y="34" width="58" height="58" rx="12" fill="none" stroke="#b9fbc0" stroke-width="3" stroke-dasharray="8 7"/>
-    <rect x="504" y="34" width="58" height="58" rx="12" fill="#f7f4ed" opacity=".12"/>
-    <rect x="576" y="34" width="58" height="58" rx="12" fill="#f7f4ed" opacity=".12"/>
-    <g fill="none" stroke="#16392f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
-      <path d="m17 63 9 9 18-20M89 63l9 9 18-20M161 63l9 9 18-20M233 63l9 9 18-20M305 63l9 9 18-20M377 63l9 9 18-20"/>
-    </g>
-  </g>
-  <g transform="translate(885 112)" filter="url(#glow)">
-    <path d="M0 58 106 0l106 58-106 58L0 58Z" fill="#b9fbc0"/>
-    <path d="m0 58 106 58v118L0 176V58Z" fill="#79d98d"/>
-    <path d="m212 58-106 58v118l106-58V58Z" fill="#a1edaa"/>
-    <path d="m70 20 106 58v45l-25-7-19 30v-47L26 41l44-21Z" fill="#f7f4ed" opacity=".94"/>
-  </g>
-</svg>
 
+  <rect width="1200" height="420" rx="28" fill="#f7f7e8"/>
+  <path d="M28 0h1144a28 28 0 0 1 28 28v22H0V28A28 28 0 0 1 28 0Z" fill="#214e43"/>
+  <text x="600" y="32" text-anchor="middle" fill="#f7f7e8" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="650" letter-spacing=".25">RESUME AFTER A DROP, A RELOAD, OR A RESTART</text>
+
+  <rect x="72" y="68" width="1056" height="54" rx="15" fill="#fbfbf0" stroke="#d9dacb" stroke-width="2"/>
+  <g transform="translate(92 79)">
+    <rect width="32" height="32" rx="9" fill="#214e43"/>
+    <path d="M9 8h10.4c4.3 0 7.4 2.8 7.4 6.9s-3.1 6.9-7.4 6.9h-4.7v3.7H9V8Zm5.7 5v3.7h4.5c1.3 0 2.1-.7 2.1-1.8s-.8-1.9-2.1-1.9h-4.5Z" fill="#f7f7e8"/>
+  </g>
+  <text x="134" y="102" fill="#171a17" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="24" font-weight="750">Parcel</text>
+  <rect x="892" y="78" width="216" height="34" rx="10" fill="#e5d7f6" stroke="#171a17" stroke-width="1.5"/>
+  <text x="1000" y="101" text-anchor="middle" fill="#171a17" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700">BUILT TO RESUME  →</text>
+
+  <text x="92" y="166" fill="#5e645e" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="650" letter-spacing="2.2">RESUMABLE FILE SHARING</text>
+  <text x="89" y="232" fill="#171a17" font-family="Georgia, 'Times New Roman', serif" font-size="62" letter-spacing="-2">Send large files,</text>
+  <text x="89" y="294" fill="#171a17" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-style="italic" letter-spacing="-2">without starting over.</text>
+  <text x="94" y="336" fill="#343a35" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="18">Verified chunks. Honest progress. One simple link.</text>
+
+  <g transform="translate(94 358)">
+    <rect width="515" height="8" rx="4" fill="#214e43" opacity=".12"/>
+    <rect width="376" height="8" rx="4" fill="#214e43" opacity=".82"/>
+    <circle cx="376" cy="4" r="8" fill="#e5d7f6" stroke="#214e43" stroke-width="3"/>
+    <g fill="#214e43">
+      <circle cx="50" cy="4" r="2.5"/>
+      <circle cx="104" cy="4" r="2.5"/>
+      <circle cx="158" cy="4" r="2.5"/>
+      <circle cx="212" cy="4" r="2.5"/>
+      <circle cx="266" cy="4" r="2.5"/>
+      <circle cx="320" cy="4" r="2.5"/>
+    </g>
+  </g>
+  <text x="625" y="368" fill="#697069" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="12">73% securely confirmed</text>
+
+  <path d="M745 384c64-71 105-93 171-92 62 1 105 34 178-9 37-22 62-61 75-102" fill="none" stroke="url(#trailFade)" stroke-width="2" stroke-dasharray="5 8"/>
+  <g opacity=".16" fill="#214e43" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="11" letter-spacing="1">
+    <text x="761" y="366" transform="rotate(-25 761 366)">verified</text>
+    <text x="841" y="323" transform="rotate(-10 841 323)">checkpointed</text>
+    <text x="948" y="318" transform="rotate(12 948 318)">ready to resume</text>
+  </g>
+
+  <g transform="translate(900 145)" opacity=".28" filter="url(#softBlur)">
+    <path d="M0 53 94 0l94 53-94 53L0 53Z" fill="url(#boxFade)" stroke="#214e43" stroke-opacity=".2"/>
+    <path d="m0 53 94 53v105L0 158V53Z" fill="#9ccf98" fill-opacity=".33" stroke="#214e43" stroke-opacity=".18"/>
+    <path d="m188 53-94 53v105l94-53V53Z" fill="#78b489" fill-opacity=".25" stroke="#214e43" stroke-opacity=".18"/>
+    <path d="m62 18 94 53v39l-23-6-16 26V88L23 36l39-18Z" fill="#fbfbf0" fill-opacity=".64"/>
+  </g>
+  <circle cx="1088" cy="338" r="92" fill="#e5d7f6" opacity=".16"/>
+</svg>

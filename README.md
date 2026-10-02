@@ -53,6 +53,17 @@ select → fingerprint → upload chunks → verify → share
 - Download through the browser without creating an account.
 - Use standard HTTP range requests where the browser or download manager supports them.
 
+## Interface direction
+
+Parcel should feel calm, editorial, and human—not like an infrastructure dashboard. The planned UI uses a warm cream canvas, oversized serif headlines, dark ink-green structure, restrained lavender highlights, soft rounded frames, and faint transfer trails that suggest motion without adding noise.
+
+- Lead with one clear action and generous whitespace.
+- Keep technical detail behind familiar file-transfer language.
+- Use the parcel illustration as a faded atmospheric watermark, not a loud mascot.
+- Pair expressive display typography with highly legible interface text.
+- Let progress, recovery, and error states remain visually quiet but unmistakable.
+- Preserve strong focus states, contrast, keyboard access, and mobile layouts.
+
 ## Why Parcel is different
 
 | | Parcel's approach |
@@ -166,4 +177,3 @@ The project is currently in the design stage. Issues that sharpen the MVP—espe
   <img src="assets/parcel-mark.svg" alt="Parcel logo" width="72" />
   <p><strong>Built for the connection you actually have.</strong></p>
 </div>
-
